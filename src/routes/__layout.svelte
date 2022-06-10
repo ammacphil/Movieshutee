@@ -2,9 +2,14 @@
 	import global from '../global.css';
 </script>
 
+<svelte:head>
+	<title>Movieshutee app</title>
+</svelte:head>
 
 <nav>
-	<h1>Nav</h1>
+	<div class="logo">
+		<h2>Movieshutee</h2>
+	</div>
 </nav>
 
 
