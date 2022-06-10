@@ -12,3 +12,13 @@
 		<Card  {movie}/>
 	{/each}
 </section>
+
+<style>
+    .popular__movies{
+        display: grid;
+        grid-template-columns:repeat(auto-fit, minmax(15.625rem, 1fr)) ;
+        grid-column-gap:0.25rem ;
+        grid-row-gap: 1.2rem;
+    }
+    
+</style>
